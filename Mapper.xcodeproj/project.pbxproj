@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9612716E1C6D505A008559AE /* NSDate+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612716D1C6D505A008559AE /* NSDate+Convertible.swift */; };
 		C201748E1BD5509D00E4FE18 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20174831BD5509D00E4FE18 /* Mapper.framework */; };
 		C2C036FA1C2B1A0B003FB853 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F31C2B1A0B003FB853 /* Convertible.swift */; };
 		C2C036FB1C2B1A0B003FB853 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F41C2B1A0B003FB853 /* Errors.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9612716D1C6D505A008559AE /* NSDate+Convertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Convertible.swift"; sourceTree = "<group>"; };
 		C20174831BD5509D00E4FE18 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C201748D1BD5509D00E4FE18 /* MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C036D11C2B180D003FB853 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C2C036F51C2B1A0B003FB853 /* Mappable.swift */,
 				C2C036F61C2B1A0B003FB853 /* Mapper.swift */,
 				C2C036F71C2B1A0B003FB853 /* NSURL+Convertible.swift */,
+				9612716D1C6D505A008559AE /* NSDate+Convertible.swift */,
 				C2C036F81C2B1A0B003FB853 /* Transform+Dictionary.swift */,
 				C2C036F91C2B1A0B003FB853 /* Transform.swift */,
 			);
@@ -216,6 +219,7 @@
 			files = (
 				C2C036FF1C2B1A0B003FB853 /* Transform+Dictionary.swift in Sources */,
 				C2C036FE1C2B1A0B003FB853 /* NSURL+Convertible.swift in Sources */,
+				9612716E1C6D505A008559AE /* NSDate+Convertible.swift in Sources */,
 				C2C036FD1C2B1A0B003FB853 /* Mapper.swift in Sources */,
 				C2C037001C2B1A0B003FB853 /* Transform.swift in Sources */,
 				C2C036FB1C2B1A0B003FB853 /* Errors.swift in Sources */,
