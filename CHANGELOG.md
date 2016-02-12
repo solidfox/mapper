@@ -6,7 +6,7 @@
 
 ## Enhancements
 
-- None
+- Added convertible conformance to `NSDate` for some ISO 8601 dates including the output of JavaScript's `Date.toJSON()` function (e.g. "2007-01-09T18:03:02.010Z")
 
 ## Bug Fixes
 
