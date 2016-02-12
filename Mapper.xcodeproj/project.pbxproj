@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9612716E1C6D505A008559AE /* NSDate+Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9612716D1C6D505A008559AE /* NSDate+Convertible.swift */; };
+		961271931C6E5E5C008559AE /* NSDate+ConcertibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961271921C6E5E5C008559AE /* NSDate+ConcertibleTests.swift */; };
 		C201748E1BD5509D00E4FE18 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20174831BD5509D00E4FE18 /* Mapper.framework */; };
 		C2C036FA1C2B1A0B003FB853 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F31C2B1A0B003FB853 /* Convertible.swift */; };
 		C2C036FB1C2B1A0B003FB853 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C036F41C2B1A0B003FB853 /* Errors.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9612716D1C6D505A008559AE /* NSDate+Convertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Convertible.swift"; sourceTree = "<group>"; };
+		961271921C6E5E5C008559AE /* NSDate+ConcertibleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+ConcertibleTests.swift"; sourceTree = "<group>"; };
 		C20174831BD5509D00E4FE18 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C201748D1BD5509D00E4FE18 /* MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C036D11C2B180D003FB853 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				C2C037021C2B1A14003FB853 /* ConvertibleValueTests.swift */,
+				961271921C6E5E5C008559AE /* NSDate+ConcertibleTests.swift */,
 				C2C037031C2B1A14003FB853 /* CustomTransformationTests.swift */,
 				C2C037041C2B1A14003FB853 /* InitializerTests.swift */,
 				C2C037051C2B1A14003FB853 /* MappableValueTests.swift */,
@@ -240,6 +243,7 @@
 				C2C0370B1C2B1A14003FB853 /* CustomTransformationTests.swift in Sources */,
 				C2C037111C2B1A14003FB853 /* TransformTests.swift in Sources */,
 				C2C0370F1C2B1A14003FB853 /* OptionalValueTests.swift in Sources */,
+				961271931C6E5E5C008559AE /* NSDate+ConcertibleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
